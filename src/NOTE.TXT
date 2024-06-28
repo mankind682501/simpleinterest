@@ -1,0 +1,9 @@
+REGULAR EXPRESSION
+---------------------
+1)it should start and end with /^ $/
+2)pattern is placed in the square bracket []
+ /^[0-9 a-z A-Z @]$/
+eg /^[0-9]*$/
+
+value - pattern - match() -returns array with the value and pattern are equal otherwise it returns null
+
